@@ -1,0 +1,74 @@
+table {
+	width: 100%;
+}
+
+#errorhead
+{
+	margin-right:150px;
+	text-align: center;
+	color:black;
+}
+
+h1 {
+	margin-right:150px;
+	text-align: center;
+	color: red;
+}
+
+img {
+	margin-right: -172px;
+	width: 220px;
+}
+
+p
+{
+	text-align:justify;
+}
+
+input[type=text]
+{	
+	text-aling:justify;
+	width:auto;
+	margin-top:20px;
+	padding:5px 10px;
+}
+
+input[type=password]
+{
+	
+	text-aling:justify;
+	width:auto;
+	margin-top:20px;
+	padding:5px 10px;
+}
+
+input[type=submit]
+{
+	margin-top:15px;
+	margin-left:110px;
+	text-align:center;
+	font-size:16px;
+	padding:5px 20px;
+}
+
+select
+{
+	cursor: pointer;
+	text-align:center;
+	margin-left:155px;
+	width:auto;
+	padding:5px 10px ;
+}
+
+option
+{
+	font-size:14px;
+}
+
+label
+{
+	width:150px;
+	text-align:right;
+	display:inline-block;
+}
+

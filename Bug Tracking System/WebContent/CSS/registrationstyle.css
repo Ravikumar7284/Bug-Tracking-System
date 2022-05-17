@@ -1,0 +1,82 @@
+table {
+	width: 100%;
+}
+
+h1 {
+	margin-right:150px;
+	text-align: center;
+	color: red;
+}
+
+h2
+{
+	margin-right:100px;
+	text-align: center;
+	color: red;
+}
+
+a
+{
+	float:right;
+	color:red;
+	font-size:18px;
+}
+
+img {
+	margin-right: -172px;
+	width: 220px;
+}
+
+form
+{	margin-right:150px;
+	text-align:center;
+}
+
+input[type=text],[type=password],[type=email],[type=tel]
+{
+	margin-top:10px;
+	width:175px;
+	padding:5px 10px;
+	margin-left:20px;
+}
+
+input[type=submit],[type=button]
+{
+	margin-left:100px;
+	margin-top:25px;
+	text-align:center;
+	font-size:16px;
+	padding:5px 20px;
+}
+
+
+select
+{
+	cursor: pointer;
+	text-align:center;
+	padding:5px 10px;
+	margin-top:10px;
+	margin-left:20px;
+	width:200px;
+}
+
+option
+{
+	text-align:center;
+	font-size:16px;
+}
+
+input[type=date]
+{
+	cursor: pointer;
+	padding:5px 10px;
+	width:155px;
+	margin-top:10px;
+}
+
+label
+{
+	width:150px;
+	text-align:right;
+	display:inline-block;
+}

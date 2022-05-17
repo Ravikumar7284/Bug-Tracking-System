@@ -1,0 +1,46 @@
+CREATE TABLE `bugs` (
+  `bug_name` varchar(45) NOT NULL,
+  `bug_type` varchar(45) NOT NULL,
+  `bug_level` varchar(45) NOT NULL,
+  `priority` varchar(45) NOT NULL,
+  `project_name` varchar(45) NOT NULL,
+  `tester_name` varchar(45) NOT NULL,
+  `bugdate` date NOT NULL,
+  `employee_name` varchar(45) NOT NULL,
+  `status` varchar(45) NOT NULL,
+  `solution` varchar(500) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `department` (
+  `department_name` varchar(45) NOT NULL,
+  `department_location` varchar(45) NOT NULL,
+  PRIMARY KEY (`department_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `project` (
+  `project_name` varchar(45) NOT NULL,
+  `project_description` varchar(400) NOT NULL,
+  `client_name` varchar(45) NOT NULL,
+  `submission_date` date NOT NULL,
+  `project_lead` varchar(45) NOT NULL,
+  `administrator_name` varchar(45) NOT NULL,
+  PRIMARY KEY (`project_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `registration` (
+  `user_id` int NOT NULL AUTO_INCREMENT,
+  `first_name` varchar(45) NOT NULL,
+  `last_name` varchar(45) NOT NULL,
+  `gender` varchar(45) DEFAULT NULL,
+  `date_of_birth` date DEFAULT NULL,
+  `phone_no` varchar(45) NOT NULL,
+  `email_id` varchar(45) NOT NULL,
+  `date_of_joining` date NOT NULL,
+  `department` varchar(45) NOT NULL,
+  `designation` varchar(45) NOT NULL,
+  `user_password` varchar(45) NOT NULL,
+  `confirm_password` varchar(45) NOT NULL,
+  `hint_question` varchar(100) NOT NULL,
+  `hint_answer` varchar(45) NOT NULL,
+  PRIMARY KEY (`user_id`)
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
